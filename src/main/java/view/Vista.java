@@ -265,7 +265,7 @@ public class Vista extends JFrame {
         try {
             //Lista para la consulta del requerimiento5
             ArrayList<Proyecto> proyectos = controlador.Solucionar_requerimiento_5();
-            String info = "=======/ CANTIDAD TOTAL DE PROECTOS CLASIFICADOS POR CONDOMINIOS CONTRUIDOS POR CADA CONSTRUCTORAS /======== \n\nCondominios\t\tConstructora\n\n";
+            String info = "=======/ CANTIDAD TOTAL DE PROYECTOS CLASIFICADOS POR CONDOMINIOS CONTRUIDOS POR CADA CONSTRUCTORAS /======== \n\nCondominios\t\tConstructora\n\n";
             //Recorremos la lista para mostrar la informacion de las consultas
             for (int i = 0; i < proyectos.size(); i++) {
                 //Datos para mostrar en Consola
